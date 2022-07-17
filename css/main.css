@@ -1,0 +1,236 @@
+body {
+  margin: 40px auto;
+  background: #c1ebeb;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #096488;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+button {
+  margin: 10px 50px;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#increment-btn {
+  background-color: darkred;
+}
+
+#save-btn {
+  background-color: darkgreen;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#purchase-btn {
+  color: black;
+  background: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#calculate-btn {
+  color: black;
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-right: 25px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  display: inline;
+}
+
+#sum-el {
+  font-weight: bold;
+  font-size: 18px;
+  color: #a56413;
+}
+
+#sym-el {
+  display: none;
+}
+
+#num1-el {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+#num2-el {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#black-j {
+  color: goldenrod;
+}
+
+#message-el {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#start-el {
+  color: #016f32;
+  width: 150px;
+  background-color: goldenrod;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#start-el:hover {
+  width: 165px;
+  background-color: #016f32;
+  color: goldenrod;
+  font-size: 18px;
+  border: 2px solid white;
+}
+
+#newcard-el {
+  color: #016f32;
+  width: 120px;
+  background-color: goldenrod;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#newcard-el:hover {
+  width: 145px;
+  background-color: #016f32;
+  color: goldenrod;
+  font-size: 18px;
+  border: 2px solid white;
+}
+
+#card-bgd {
+  background-color: #024602;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#card-bgd a {
+  color: white;
+}
+
+#card-bgd a:hover {
+  color: yellow;
+}
+
+#card-bgd p {
+  color: white;
+}
+
+ul {
+  font-size: 14px;
+  list-style-type: none;
+  margin-top: 100px;
+}
+
+ul li {
+  display: inline;
+  margin: 15px;
+}
+
+ul li:hover {
+  font-weight: bold;
+}
+
+.bgd-02 {
+  background-color: #f4aef7;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bgd-02 a {
+  color: black;
+}
+
+.bgd-02 a:hover {
+  color: red;
+}
+
+.bgd-02 p {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
